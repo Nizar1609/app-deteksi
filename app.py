@@ -70,7 +70,6 @@ if model:
         st.image("https://cdn-icons-png.flaticon.com/512/3014/3014420.png", width=100) # Ikon ilustrasi
         st.header("⚙️ Panel Kontrol")
         st.write("Sesuaikan parameter deteksi di bawah ini:")
-        
         confidence = st.slider(
             "Ambang Batas Keyakinan (Confidence)", 
             min_value=0.0, 
